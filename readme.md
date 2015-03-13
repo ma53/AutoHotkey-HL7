@@ -58,3 +58,9 @@ Because HL7 messages can have any number of segments, with any number of fields,
 This means that the actual "values" encoded in your HL7 message will be found in the most specific level possible: the subcomponent.
 Fields that have no defined repeats, components, or subcomponents will therefore nontheless be returned as though they had one of each.
 This structure is purposeful.  It is the only way to maintain a consistent and useful shape across the myriad of message structures made possibly by HL7's lax definition.
+
+## Acknowledgements
+
+The structure of the class is based largely on that of (cocobelgica's amazing JSON module)[https://github.com/cocobelgica/AutoHotkey-JSON], of which I have made extensive use in my own personal projects for the last couple of years.
+
+Everything I know about AutoHotkey has been absorbed from either the included help file or the amazing community at (ahkscript.org)[http://ahkscript.org].  I've read hundreds of topics and replies by all of the all-star users over there...too numerous to recall.  Thanks to everyone who contributes to that awesome community!
