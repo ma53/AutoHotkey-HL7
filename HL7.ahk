@@ -6,8 +6,10 @@
  * 	Originally written by "MA53": Timothy McNamara
  * 	Dedicated to the wonderful folks at http://www.ahkscript.org/ -- never stop doing what you do!
  *
- * 	Free to use/copy/alter with or without attribution.  If you get some use out of this,
- * 	or if you find an issue or potential improvement, let me know!
+ * 	Hosted on github at https://github.com/ma53/AutoHotkey-HL7
+ *
+ *  If you get some use out of this, find an issue with it, or see some room for improvement in it,
+ *  let me know!  My code is always evolving.
  */
 
 Class HL7
@@ -166,12 +168,12 @@ Class HL7
 			 *  {
 			 *  	"MSH"
 			 *  	[
-			 *  		[[[["Field1"]]], [[["Field2"]]], ... ]
+			 *  		[[[[["Field1"]]]], [[[["Field2"]]]], ... ]
 			 *  	]
 			 *  	"PID"
 			 *  	[ 
-			 *  		[[[["Schmidt"], ["John"], ["Jacobjingleheimer"]]], [[["Field2"]]], ... ]
-			 *  		[[[["Murphy"], ["Dade"]]], [[["Zero Cool"], ["Crash Override"]]], ... ]
+			 *  		[[[[["Schmidt"], ["John"], ["Jacobjingleheimer"]]]], [[[["Field2"]]]], ... ]
+			 *  		[[[[["Murphy"], ["Dade"]]]], [[[["Zero Cool"], ["Crash Override"]]]], ... ]
 			 *  		...
 			 *  	]
 			 *   	...
