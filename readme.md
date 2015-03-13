@@ -10,7 +10,7 @@ License: [GPLv3](http://www.gnu.org/copyleft/gpl.html)
 
 ## Usage
 
-Simply include HL7.ahk file somewhere in your script and invoke the HL7 class's parse() method:
+Simply include HL7.ahk somewhere in your script and invoke the HL7 class's parse() method:
 
 ````
 ; in most cases you will be working from an HL7 text file.
