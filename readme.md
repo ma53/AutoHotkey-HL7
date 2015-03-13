@@ -17,6 +17,7 @@ Simply include HL7.ahk file somewhere in your script and invoke the HL7 class's 
 FileRead, HL7_Text, Sample_HL7.txt
 Parsed_HL7 := HL7.parse(HL7_Text)
 ````
+The parser is smart enough to detect and honor any specified encoding characters, even though most HL7 implementations do not deviate from the "suggested" values.
 
 The HL7 class will parse your input and return an object of the following structure:
 
@@ -38,6 +39,12 @@ The HL7 class will parse your input and return an object of the following struct
 	]
 	...
 }
+````
+
+The input in the case above would have been:
+
+````
+MSH|Value
 ````
 
 A simple sample script and HL7 message are included in the samples subdirectory.
